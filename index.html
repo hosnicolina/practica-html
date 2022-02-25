@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<title>web de perros</title>
+</head>
+<body>
+	<header class="header">
+		<h1 class="logo">dogui</h1>
+		<ul class="menu">
+			<li class="menu-item">inicio</li>
+			<li class="menu-item">contenido</li>
+			<li class="menu-item">formulario</li>
+		</ul>
+	</header>
+	<main class="main">
+		<section class="presentacion">
+			<h2 class="presentacion-titulo">Esta es un web donde amamos a los perros</h2>
+			<p class="presentacion-contenido">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur maiores quo necessitatibus asperiores delectus sapiente soluta. Temporibus dicta mollitia veniam ut similique enim architecto nisi molestiae, exercitationem magnam reiciendis accusamus?</p>
+			<div class="presentacion-galeria">
+				<article class="presentacion-galeria-item">
+					<img class="presentacion-galeria-img uno" src="perrito1.webp" alt="">
+				</article>
+				<article class="presentacion-galeria-item">
+					<img class="presentacion-galeria-img" src="perrito2.jpg" alt="">
+				</article>
+				<article class="presentacion-galeria-item">
+					<img class="presentacion-galeria-img" src="perrito3.jpg" alt="">
+				</article>
+				<article class="presentacion-galeria-item">
+					<img class="presentacion-galeria-img uno" src="perrito1.webp" alt="">
+				</article>
+			</div>
+		</section>
+		<section class="contacto">
+			<h2 style="text-align: center;" class="presentacion-titulo">Contacto</h2>
+
+			<div class="contacto-container">
+				<div class="contacto-data">
+					<h3>Contactanos</h3>
+					<article class="dato">
+						<span>Direccion:</span>
+						<span>Castillito</span>
+					</article>
+					<article class="dato">
+						<span>Telefono:</span>
+						<span>04121902578</span>
+					</article>
+					<article class="dato">
+						<span>Correo:</span>
+						<span>hola@yopmail.com</span>
+					</article>
+				</div>
+				<div class="contacto-formulario">
+					<h3>DROP US A LINE</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quia adipisci natus unde repellat magni illo qui? Temporibus veniam hic sunt nulla veritatis eos iste. Voluptatum quidem quas ducimus doloribus!</p>
+					<form action="">
+						<label for="nombre">Nombre:</label>
+						<input 
+							placeholder="Nombre:" 
+							name="nombre" 
+							value="" 
+							type="text"
+						>
+						<label for="email">Correo:</label>
+						<input type="email" name="email" placeholder="Correo Electronico">
+						<label for="pass">Contrase#a</label>
+						<input type="password" name="pass" placeholder="Contrase#a">
+						<input name="avatar" type="file">
+						<label for="hombre">Eres Hombre</label>
+						<input type="checkbox" name="hombre" id="">
+						<label >Sexo: </label>
+						<label for="hombre">Hombre</label>
+						<input type="radio" name="sexo" id="hombre" value="hombre">
+						<label for="mujer">Mujer</label>
+						<input type="radio" name="sexo" id="" value="mujer" id="mujer">
+						<label for="color">Elije un color</label>
+						<input type="color" name="color" id="">
+						<label for="date">Fecha</label>
+						<input type="date" name="date" id="">
+						<label for="datetime">Hora</label>
+						<input type="datetime" name="datetime" id="">
+						<input type="submit" value="Enviar">
+					</form>
+				</div>
+			</div>
+
+		</section>
+	</main>
+	<footer class="footer">
+		&copy; 2022 DOGUI
+	</footer>
+	<script src="main.js"></script>
+</body>
+</html>
